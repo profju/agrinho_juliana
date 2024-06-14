@@ -3,68 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Verde</title>
+    <title>Página com Estrutura</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <div class="container">
-    <div class="top">
-        <h2>Texto com 7 linhas na parte superior da página</h2>
-        <p>
-            Linha 1<br>
-            Linha 2<br>
-            Linha 3<br>
-            Linha 4<br>
-            Linha 5<br>
-            Linha 6<br>
-            Linha 7<br>
-        </p>
+    <div class="row">
+        <div class="col-12">
+            <h2>Texto com 7 linhas na parte superior da página</h2>
+            <p>
+                Linha 1<br>
+                Linha 2<br>
+                Linha 3<br>
+                Linha 4<br>
+                Linha 5<br>
+                Linha 6<br>
+                Linha 7<br>
+            </p>
+        </div>
     </div>
 
-    <div class="left">
-        <h2>Texto na lateral esquerda com 8 linhas</h2>
-        <p>
-            Linha 1<br>
-            Linha 2<br>
-            Linha 3<br>
-            Linha 4<br>
-            Linha 5<br>
-            Linha 6<br>
-            Linha 7<br>
-            Linha 8<br>
-        </p>
-    </div>
+    <div class="row">
+        <div class="col-4">
+            <h2>Texto na lateral esquerda com 8 linhas</h2>
+            <p>
+                Linha 1<br>
+                Linha 2<br>
+                Linha 3<br>
+                Linha 4<br>
+                Linha 5<br>
+                Linha 6<br>
+                Linha 7<br>
+                Linha 8<br>
+            </p>
+        </div>
 
-    <div class="right">
-        <h2>Texto na lateral direita com 10 linhas</h2>
-        <p>
-            Linha 1<br>
-            Linha 2<br>
-            Linha 3<br>
-            Linha 4<br>
-            Linha 5<br>
-            Linha 6<br>
-            Linha 7<br>
-            Linha 8<br>
-            Linha 9<br>
-            Linha 10<br>
-        </p>
-    </div>
+        <div class="col-4">
+            <h2>Texto na lateral direita com 10 linhas</h2>
+            <p>
+                Linha 1<br>
+                Linha 2<br>
+                Linha 3<br>
+                Linha 4<br>
+                Linha 5<br>
+                Linha 6<br>
+                Linha 7<br>
+                Linha 8<br>
+                Linha 9<br>
+                Linha 10<br>
+            </p>
+        </div>
 
-    <div class="center">
-        <img src="caminho_para_sua_primeira_imagem.jpg" alt="Imagem 1">
-        <img src="caminho_para_sua_segunda_imagem.jpg" alt="Imagem 2">
+        <div class="col-4">
+            <div class="center">
+                <img src="caminho_para_sua_primeira_imagem.jpg" alt="Imagem 1">
+                <img src="caminho_para_sua_segunda_imagem.jpg" alt="Imagem 2">
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="bottom">
-    <a href="link_para_sua_segunda_pagina.html">Ir para a Segunda Página</a>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="bottom">
+                <a href="link_para_sua_segunda_pagina.html">Ir para a Segunda Página</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="video">
+                <iframe width="560" height="315" src="link_para_o_seu_video_youtube" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="video">
-    <iframe width="560" height="315" src="link_para_o_seu_video_youtube" frameborder="0" allowfullscreen></iframe>
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>
